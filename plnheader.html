@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <style>
+        header .main-bar {
+            background: #fff;
+            padding: 0px 5%;
+        }
+
+        header .top-bar {
+            background: #53565A;
+            text-align: right;
+            padding: 10px 50px;
+        }
+
+        header #col-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            width: 90%;
+            margin: 10px 0;
+            /* background: pink; */
+            margin-top: 0;
+        }
+
+        header .col-one {
+            padding: 10px 20px;
+            /* background: green; */
+        }
+
+        header .col-two {
+            /* background: red; */
+            text-align: right;
+            /* position: relative; */
+        }
+
+        header .col-two .nav-wrap {
+            /* position: absolute;
+            bottom: 0;
+            right: 0; */
+        }
+
+        header .nav {
+            display: inline-flex;
+            list-style: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        header .nav a {
+            color: #53565A;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        header .nav a:hover {
+            text-decoration: underline;
+        }
+
+        header .logo img {
+            width: 35%;
+        }
+
+        header .socials i {
+            padding: 0 5px;
+        }
+
+        header .socials a {
+            color: #fff;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/c1dffd9af9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+</body>
+
+<header>
+    <div class="top-bar">
+        <div class="socials">
+            <a href="https://www.facebook.com/pages/Pathway-Health-Services/110142405666815" target="_blank"><i
+                    class="fa fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pathwayhealthservices/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/Pathway_Health" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="http://www.linkedin.com/company/pathway-health-services" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="http://www.youtube.com/user/PathwayHealthSvcs" target="_blank"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div id="col-wrap" class="main-bar">
+        <div class="col-one col">
+            <div class="logo">
+                <a href="/">
+                    <img src="https://www.pathwaylearningnetwork.com/images/bDYyD6BtTtU0bb9HaXJSf1MTM4ODg0NTUyNjQwMA/PLN_Site_Images/Pathway_Learning_Network_Logo_CG11.png"
+                        alt="">
+                </a>
+            </div>
+        </div>
+        <div class="col-two header-nav col">
+            <div class="nav-wrap">
+                <ul class="nav">
+                    <li><a href="javascript:void(0)">Login</a></li>
+                    <li><a href="/courses-page">Course Descriptions</a></li>
+                    <li><a href="/subscription-plans">Purcahse Courses</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+
+</html>

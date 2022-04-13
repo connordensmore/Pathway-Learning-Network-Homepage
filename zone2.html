@@ -1,0 +1,78 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #area-two {
+        color: #000;
+        margin: 50px 12.5% 100px 12.5%;
+        font-family: "Helvetica", "Roboto", sans-serif !important;
+    }
+
+    #area-two .col-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 20px;
+        margin: 0 5%;
+    }
+
+    #area-two .col-container .col {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 1300px) {
+        #area-two .col-container .col .text-container {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    #area-two .col-container .col .text-container h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+
+    #area-two .col-container .col .text-container p {
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+    #area-two .image {
+        margin: 0 auto;
+    }
+
+    #area-two .image img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <section id="area-two">
+        <div class="col-container">
+            <div class="col image">
+                <img src="https://www.pathwaylearningnetwork.com/images/bDYyD6BtTtU0bb9HaXJSf1MTM4ODg0NTUyNjQwMA/PLNMockUp.png?1646165918"
+                    alt="">
+            </div>
+            <div class="col text">
+                <div class="text-container">
+                    <h2>Training Solutions: Anywhere, Anytime, Any Device.</h2>
+                    <p>Due to increasing regulatory, clinical and operational requirements, training and resources are
+                        sometimes needed at a moments notice.</p>
+                    <p><strong>Pathway Learning Network</strong>, powered by Pathway Health, is an on-demand training
+                        solution that gives immediate access to Pathway Health’s highly sought-after classroom and
+                        INTERACT™
+                        Certified Champion courses and industry-leading tools and resources when post-acute leaders need
+                        it
+                        most.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

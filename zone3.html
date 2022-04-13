@@ -1,0 +1,144 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #area-three {
+        color: #000;
+        margin: 50px 10% 100px 10%;
+        font-family: "Helvetica", "Roboto", sans-serif !important;
+    }
+
+    #area-three .col-container {
+        display: grid;
+        grid-template-columns: .35fr .65fr;
+        grid-gap: 40px;
+        margin: 0 5%;
+    }
+
+    #area-three .col-container .col {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 1400px) {
+        #area-three .col-container .col .text-container {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        #area-three .col-container {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        }
+    }
+
+    #area-three .col-container .col .text-container h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-size-adjust: auto;
+    }
+
+
+    #area-three .col-container .col .text-container p {
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+        text-size-adjust: auto;
+    }
+
+    #area-three .image {
+        margin: 0 auto;
+    }
+
+    #area-three .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    #area-three .first-image img {
+        width: 50%;
+        height: auto;
+    }
+
+    #area-three .first-image {
+        text-align: center;
+    }
+
+    #area-three-title-bar {
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        background-color: #75787b;
+        color: #fff;
+        padding: 25px 0;
+    }
+
+    #area-three hr {
+        border-top: solid 1px #000000cc;
+        margin: 50px 5%;
+    }
+
+    #area-three .read-more {
+        color: #509e2f;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    #area-three .read-more:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <section id="area-three-title-bar">
+        Featured Courses
+    </section>
+    <section id="area-three">
+        <div class="col-container">
+            <div class="col image first-image">
+                <img src="https://www.pathwaylearningnetwork.com/images/bDYyD6BtTtU0bb9HaXJSf1MTM4ODg0NTUyNjQwMA/PLN_Site_Images/PHS_INTERACT_Certified_Champion_Icon.png"
+                    alt="">
+            </div>
+            <div class="col text">
+                <div class="text-container">
+                    <h2>INTERACT Certification for 10 Users</h2>
+                    <p>INTERACT® (Interventions to Reduce Acute Care Transfers) is a quality improvement program
+                        that
+                        focuses on the management of acute change in resident condition. It includes clinical and
+                        educational tools and strategies for use in every day practice in long-term care facilities.
+                    </p>
+                    <a class="read-more"
+                        href="https://pathwayhealth.tovuti.io/courses-page/course/interact-certified-champion-40-course">
+                        Read More >
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="col-container">
+            <div class="col image">
+                <img src="https://pathwayhealth.tovuti.io/images/bDYyD6BtTtU0bb9HaXJSf1MTM4ODg0NTUyNjQwMA/PLN_Site_Images/Alzheimer_tree_400x193.jpg"
+                    alt="">
+            </div>
+            <div class="col text">
+                <div class="text-container">
+                    <h2>Dementia Training Library - Direct Care Staff Training Modules for 10 Users </h2>
+                    <p>The Dementia Training Library meets the initial staff dementia training requirements for both
+                        assisted living facilities and assisted living facilities with dementia care. The Dementia
+                        Training Library does not meet the additional training requirements for assisted living
+                        facilities with dementia care under Minn. Stat. 144G.83.
+                    </p>
+                    <a class="read-more"
+                        href="https://pathwayhealth.tovuti.io/courses-page/course/dementia-training-library-mn-al-1">
+                        Read More >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

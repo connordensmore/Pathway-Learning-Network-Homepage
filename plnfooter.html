@@ -1,0 +1,226 @@
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background: #53565A;
+            padding: 50px 5%;
+            font-family: "Helvetica", "Roboto", sans-serif
+        }
+
+        #col-wrap {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            grid-gap: 10px;
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 1400px) {
+            #col-wrap {
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            }
+
+            .nav {
+                display: block !important;
+                text-align: center !important;
+            }
+
+            .col-three {
+                text-align: center !important;
+            }
+
+            .copyright {
+                text-align: center;
+            }
+
+            .logo img {
+                width: 80% !important;
+            }
+        }
+
+        .col-one {
+            padding: 0 20px;
+        }
+
+        .nav {
+            display: inline-flex;
+            list-style: none;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav a:nth-child(n+1) {
+            padding: 0 10px;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .logo img {
+            width: 35%;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .copyright {
+            color: #fff;
+            margin: 20px 0;
+        }
+
+        .col-two {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .button-group {
+            display: block;
+            margin-top: -15px;
+        }
+
+        .button-group button {
+            width: 100%;
+            border: none;
+            margin: 15px 0;
+            padding: 10px 50px;
+            color: #fff;
+            font-size: 1rem;
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08), 0 4px 4px rgba(0, 0, 0, 0.14);
+            transition: all .1s;
+            cursor: pointer;
+        }
+
+
+        .button-group button:hover {
+            transform: translateY(2px);
+            box-shadow: none;
+        }
+
+        .button-group .one {
+            background-color: #00A9E0;
+        }
+
+        .button-group .two {
+            background-color: #565294;
+        }
+
+        .button-group .three {
+            background-color: #97D700;
+        }
+
+        .button-group .four {
+            background-color: #EAAA00;
+        }
+
+        .col-three {
+            text-align: right;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        .col-three .socials {
+            margin-bottom: 40px;
+        }
+
+        .socials i {
+            padding: 0 5px;
+        }
+
+        .socials a {
+            color: #fff;
+        }
+
+        .contact-info a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info .name {
+            margin-bottom: 20px;
+        }
+
+        .contact-info .address p {
+            margin-bottom: 20px;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/c1dffd9af9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+</body>
+
+<footer>
+    <div id="col-wrap">
+        <div class="col-one col">
+            <ul class="nav">
+                <li><a href="https://54f9308dd6.nxcli.net/services/">Services</a></li>
+                <li><a href="https://54f9308dd6.nxcli.net/solutions/">Solutions</a></li>
+                <li><a href="https://54f9308dd6.nxcli.net/markets/">Markets</a></li>
+                <li><a href="https://54f9308dd6.nxcli.net/news/">News & Updates</a></li>
+                <li><a href="https://54f9308dd6.nxcli.net/about-us/">About Us</a></li>
+                <li><a href="https://54f9308dd6.nxcli.net/careers/">Careers</a></li>
+            </ul>
+            <div class="logo">
+                <a href="/">
+                    <img src="https://www.pathwaylearningnetwork.com/images/bDYyD6BtTtU0bb9HaXJSf1MTM4ODg0NTUyNjQwMA/PLN_Site_Images/Pathway_Learning_Network_Logo_White.png"
+                        alt="">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>©2022 Pathway Learning Network. All Rights Reserved.</p>
+            </div>
+        </div>
+        <div class="col-two col">
+            <div class="button-group">
+                <div><a target="_blank" href="http://www.shoppathwayhealth.com/"><button
+                            class="one">ShopPathwayHealth</button></a>
+                </div>
+                <div><a target="_blank" href="https://pathway-interact.com/"><button
+                            class="two">Pathway-INTERACT</button></a></div>
+                <div><a target="_blank" href="https://pathwayhealth.com"><button class="three">Pathway
+                            Health</button></a></div>
+                <div><a target="_blank" href="https://www.frailtycertification.com/"><button class="four">Frailty
+                            Certification</button></a></div>
+            </div>
+        </div>
+        <div class="col-three col">
+            <div class="socials">
+                <a href="https://www.facebook.com/pages/Pathway-Health-Services/110142405666815" target="_blank"><i
+                        class="fa fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/pathwayhealthservices/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/Pathway_Health" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/company/pathway-health-services" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="http://www.youtube.com/user/PathwayHealthSvcs" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="contact-info">
+                <p class="name">Pathway Learning Network</p>
+                <a class="address" target="_blank"
+                    href="https://www.google.com/maps/place/11240+Stillwater+Blvd+N,+Lake+Elmo,+MN+55042/">
+                    <p>11240 Stillwater Blvd N. <br />Lake Elmo, MN 55042</p>
+                </a>
+                <p class="phone"><strong>Questions? Call Us!</strong> <a href="tel:8777775463">877-7775463</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
